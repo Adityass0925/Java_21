@@ -1,8 +1,8 @@
-package src;
+package src.unit1;
 
 public class Bank {
     private int balance =10000;
-    public void withdraw(int amount) throws InsuffucientBalanceException{
+    public void withdraw(int amount) throws InsuffucientBalanceException {
         if(amount>balance)
         {
             throw new InsuffucientBalanceException("Not enough Balance");

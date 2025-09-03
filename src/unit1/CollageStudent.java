@@ -1,6 +1,6 @@
-package src;
+package src.unit1;
 
-public class CollageStudent extends Student{
+public class CollageStudent extends Student {
     public int roll_no;
 
     public CollageStudent(String address,int roll_no) {

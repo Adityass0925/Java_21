@@ -1,4 +1,4 @@
-package src;
+package src.unit1;
 
 public class Student {
     protected String address;
